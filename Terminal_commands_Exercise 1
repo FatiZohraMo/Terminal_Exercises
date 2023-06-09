@@ -1,0 +1,27 @@
+Exercise 1:
+
+Q1: Display the output of 
+
+ls ./Downloads
+
+Answer: 
+
+this command display all folders and files (which are not hidden) under this folder: ./Downloads
+
+Q2: display the content of ls ./Downloads/*
+
+Answer:
+
+This command returns the names of all files and folder of the folder "./Downloads" which are not hidden. Besides, it also returns the content of each folder. Therefore, this command return the files, folders, and the content of each folder if not empty.
+
+Q3: display the content of "ls ./Downloads/p*"
+
+Answer:
+
+This command returns all files and folders that starts with letter 'p', and are under the folder "./Downloads" . In addition, the content of each subfolder found of folder './Downloads' is also displayed.
+
+Q4: what would be the output of 'ls ./Downloads ./Music'
+
+Q5: what would be the output of 'ls -d ./Music ./Downloads/*'
+
+Q6: what would be the output of 'ls ./Music/b* ./Downloads/b*'
